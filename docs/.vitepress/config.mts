@@ -2,7 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/PraxisNexus/',
+  srcDir: 'src',
+  base: '/',
   title: "知行小栈",
   description: "A VitePress Site",
   themeConfig: {
