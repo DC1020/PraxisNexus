@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "知行"
+  name: "知行小栈"
   text: "Knowledge in Motion, Community in Action"
   tagline: My great project tagline
   actions:
