@@ -17,6 +17,7 @@ hero:
 features:
   - title: Java
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /java/
   - title: 数据结构
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Spring
