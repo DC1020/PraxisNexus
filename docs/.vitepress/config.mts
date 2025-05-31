@@ -30,6 +30,16 @@ export default defineConfig({
                   text: '1.1 发展历史',
                   link: '/java/001_quick_start/history',
                   collapsed: true,
+                },
+                {
+                  text: '1.2 搭建开发环境',
+                  link: '/java/001_quick_start/build_dev_env',
+                  collapsed: true,
+                },
+                {
+                  text: '1. 搭建开发环境',
+                  link: '/java/000_misc/Java 线程必须了解的哪些事儿',
+                  collapsed: true,
                 }
               ]
 
