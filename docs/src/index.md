@@ -15,6 +15,9 @@ hero:
       link: /api-examples
 
 features:
+  - title: 知行期刊
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /periodicals/
   - title: Java
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
     link: /java/

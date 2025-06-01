@@ -20,7 +20,6 @@ export default defineConfig({
     sidebar: {
       '/java/': [
         {
-          text: 'Java',
           items: [
             {
               text: '一、快速入门',
@@ -52,6 +51,24 @@ export default defineConfig({
           ]
         }
       ],
+      '/periodicals/': [
+        {
+          items: [
+             {
+              text: '【第三期】SpringBoot 的核心只有几张图',
+              link: '/periodicals/2025/springboot',
+            },
+            {
+              text: '【第二期】Redis 的几个热点知识',
+              link: '/periodicals/2025/redis',
+            },
+            {
+              text: '【第一期】Java 线程必须了解的哪些事儿',
+              link: '/periodicals/2025/thread',
+            }
+          ]
+        }
+      ]
 
     },
 
