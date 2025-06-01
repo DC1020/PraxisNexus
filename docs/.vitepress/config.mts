@@ -37,7 +37,7 @@ export default defineConfig({
                   collapsed: true,
                 },
                 {
-                  text: '1. 搭建开发环境',
+                  text: 'Java 线程必须了解的哪些事儿',
                   link: '/java/000_misc/Java 线程必须了解的哪些事儿',
                   collapsed: true,
                 }

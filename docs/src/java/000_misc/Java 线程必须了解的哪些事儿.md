@@ -6,7 +6,7 @@
 今天，『知行』就为大家梳理一下，Java 线程中必须要掌握的知识点。
 
 ## 线程的创建方式
-![](/java/threadpool/1.png)
+<img src="/java/threadpool/1.png">
 
 在 Java 中，线程的创建方式通常有 4 种方式：
 
@@ -16,7 +16,7 @@
 4. 线程池，能够管理线程生命周期；
 
 ## 线程的生命周期
-![](/java/threadpool/2.png)
+<img src="/java/threadpool/2.png">
 
 Java 线程的生命周期有 6 个阶段：
 
@@ -29,7 +29,7 @@ Java 线程的生命周期有 6 个阶段：
 
 ## 死锁的必要条件
 
-<img src="/java/threadpool/3.png" style="width: 50%">
+<img src="/java/threadpool/3.png" style="width: 60%">
 
 如果发生了死锁，必定会满足以下 4 个必要条件（缺一不可）：
 
@@ -47,7 +47,7 @@ Java 线程的生命周期有 6 个阶段：
 4. 破坏循环等待条件：按顺序申请资源；
 
 ## 线程池运行原理
-<img src="/java/threadpool/4.png" style="width: 70%">
+<img src="/java/threadpool/4.png" style="width: 80%">
 
 线程池的工作流程主要分为以下几个阶段：
 
@@ -68,7 +68,7 @@ Java 线程的生命周期有 6 个阶段：
 5. TERMINATED（终止状态）：`terminated()` 方法执行完毕，线程池完全关闭；
 
 ## 线程池的核心参数
-<img src="/java/threadpool/6.png" style="width: 60%">
+<img src="/java/threadpool/6.png" style="width: 70%">
 
 线程池的核心参数共有 7 个：
 
@@ -81,7 +81,7 @@ Java 线程的生命周期有 6 个阶段：
 7. RejectedExecutionHandler（拒绝策略）：当任务队列满且线程数达到上限时的处理策略；
 
 ## 线程池的拒绝策略
-<img src="/java/threadpool/7.png" style="width: 60%">
+<img src="/java/threadpool/7.png" style="width: 70%">
 
 Java 线程池提供了 4 种拒绝策略：
 
