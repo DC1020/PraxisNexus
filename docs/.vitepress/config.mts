@@ -28,17 +28,17 @@ export default defineConfig({
               items: [
                 {
                   text: '1.1 发展历史',
-                  link: '/java/001_quick_start/history',
+                  link: '/java/quick-start/history',
                   collapsed: true,
                 },
                 {
                   text: '1.2 搭建开发环境',
-                  link: '/java/001_quick_start/build_dev_env',
+                  link: '/java/quick-start/build-dev-env',
                   collapsed: true,
                 },
                 {
                   text: 'Java 线程必须了解的哪些事儿',
-                  link: '/java/000_misc/Java 线程必须了解的哪些事儿',
+                  link: '/java/misc/thread',
                   collapsed: true,
                 }
               ]
