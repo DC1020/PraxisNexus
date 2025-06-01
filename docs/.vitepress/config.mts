@@ -4,6 +4,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   srcDir: 'src',
   base: '/praxis-nexus/',
+  cleanUrls: true,
+  lang: 'zh-CN',
 
   title: "知行小栈",
   description: "A VitePress Site",
